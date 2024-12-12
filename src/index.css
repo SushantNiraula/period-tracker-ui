@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Make the calendar larger and center it */
+.custom-calendar {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 1.2em; /* Larger text */
+}
+
+/* Make the calendar tiles bigger */
+.react-calendar__tile {
+  border-radius: 40px;
+  padding: 20px;
+  font-size: 1.5em; /* Bigger numbers */
+}
+
+/* Style for highlighted period dates */
+.highlight {
+  background-color: #ff6347; /* Tomato color */
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+}
+
+/* Make the header section of the calendar more stylish */
+.react-calendar__navigation button {
+  background-color: #ff6347;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 1.1em;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.react-calendar__navigation button:hover {
+  background-color: #ff4500;
+}
+
+/* Add space around the calendar */
+.custom-calendar {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+/* Change default color of blue and yellow on calendar */
+.react-calendar__tile--active {
+  background-color: #bc1eff; /* DodgerBlue */
+  color: white;
+}
+
+.react-calendar__tile--now {
+  background-color: #ff7700; /* Gold */
+  color: black;
+}
+/* Style for the calendar title */
+.calendar-title {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #ff6347; /* Tomato color */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: #4a90e2; /* Nice blue color */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
